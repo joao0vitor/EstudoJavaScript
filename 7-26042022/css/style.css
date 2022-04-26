@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+
+#make {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#make div {
+  width: 30%;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgb(109, 238, 255);
+  border-radius: 50px;
+  transition: ease 0.5s;
+}
+
+#make div img {
+  width: 70%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+.price {
+  color: rgba(3, 65, 34, 0.986);
+  text-align: left;
+  font-family: Comic;
+  font-weight: bold;
+  font-size: 30pt;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+h2 {
+  margin: 10px;
+  font-family: arial;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.data {
+  text-align: center;
+  font-family: arial;
+  font-size: 12pt;
+  margin: 10px;
+}
+#make div:hover {
+  transform: scale(1);
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9);
+  border-radius: 0px;
+  z-index: 10000;
+}
+
+h1 {
+  font-size: 35pt;
+  font-family: Verdana;
+  text-align: center;
+  color: rgb(3, 65, 34, 0.986);
+}
